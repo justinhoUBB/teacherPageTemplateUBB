@@ -1,42 +1,57 @@
-
 *{
 	padding:0px;
 	margin:0px;
 }
 
-
 .main {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	left: 0;
-	margin-left: 8cm;
 	height: 100vh;
-	overflow-y: auto;
+	font-family: Roboto;
+	display: inline-block;
   }
-.main .bioText{
+.main .bio h2{
 	font-weight: 100; 
-	font-size: 60px;
+	font-size: 40px;
+	margin-left: 100px;
+}
+.main .bio p{
+	margin-left: 100px;
+	margin-right:100px;
+}
+
+.lists hr{
+		border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+
+.main .bio hr{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	margin-left: 125px;
+	margin-right: 125px;
 }
 .lists h3{
 	text-align: center; 
-	padding: 10px; 
 	font-weight: 200; 
-	font-size: 30px;
+	font-size: 25px;
 }
 
+
 .main .bio{
-	margin-left: 2cm;
-	margin-top: 2cm;
-	margin-right: 150px;
+	margin-left: 225px;
+	background-color: #F5F5F5;
+
 }
-.sidebar {
-	height: 100vh;
-	overflow-y:  auto;
-}
+
 
 .main .lists .academicEx{
 	float: left;
-	margin-left: 150px;
+	margin-left: 350px;
 	margin-top: 90px;
 	max-width: 300px;
 	
@@ -54,6 +69,15 @@
 	padding: 20px;
 	list-style-type: none;
 }
+
+
+.sidebar {
+	height: 100vh;
+	position: absolute;
+	display: inline-block;
+}
+
+
 
 .sidebar .container {
 
@@ -151,5 +175,3 @@
 	padding-left: 10px;
 
 }
-
-
