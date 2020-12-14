@@ -214,3 +214,104 @@
 	padding-left: 10px;
 
 }
+
+
+/* for research */
+
+.page{
+	line-height: 1.42857143;
+	color: #333;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	box-sizing: border-box;
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	left: 150px;
+	bottom: 0;
+	width: 100%;
+	background-color: #f7f7f7;
+}
+.pageheader{
+	background: #f3f3f3;
+	position: relative;
+	padding: 60px 0 45px 0;
+}
+
+.section-container{
+	padding: 0 10%;
+}
+.title{
+	line-height: 1.1;
+	color: inherit;
+	margin-top: 20px;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 50px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 20px 0;
+}
+.details-col{
+	box-sizing: border-box;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float: left;
+	width: 66.66666667%;
+}
+.interests-col{
+box-sizing: border-box;
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+float: left;
+width: 33.33333333%;
+}
+
+.subtitletext-center{
+box-sizing: border-box;
+text-align: center;
+border-bottom: 1px solid #ccc;
+margin: 0 0 10px 0;
+padding: 5px 0;
+}
+
+.ul-boxedlist-unstyled{
+box-sizing: border-box;
+margin-top: 0;
+margin-bottom: 10px;
+padding-left: 0;
+list-style: none;
+}
+
+.ul-boxedlist-unstyled li{
+box-sizing: border-box;
+padding: 7px;
+background-color: #FdFdFd;
+margin-bottom: 10px;
+box-shadow: 0px 3px 3px -3px #ccc;
+border-radius: 2px;
+border-left: 5px solid;
+border-left-color: #03cc85;
+}
+
+/* for publications */
+.pubmain{
+line-height: 1.42857143;
+color: #333;
+font-size: 16px;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+box-sizing: border-box;
+background: #fefefe;
+padding: 25px 25px 35px 25px;
+min-height: 130px;
+position: relative;
+box-shadow: 0px 3px 3px -3px #ccc;
+cursor: pointer;
+}
+
