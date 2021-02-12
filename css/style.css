@@ -38,8 +38,10 @@ table{
 	padding-left: 225px;
 }
 
-
-.currentTeaching .container hr {
+#research {
+	font-family: Roboto;
+}
+.currentTeaching .container hr,  {
 	text-align:  center;
 	border: 0;
     height: 1px;
@@ -127,7 +129,7 @@ table{
 
 
 
-.sidebar .container {
+.sidebar .container, .sidebar .scontainer {
 
 	
 	max-width: 250px;
@@ -136,14 +138,14 @@ table{
 	text-align: center;
 }
 
-.sidebar .container h1 {
+.sidebar .container h1, .sidebar .scontainer h1 {
 	margin: 5px 5px 5px 5px;
 	font-size: 20px;
 	font-family: Roboto;
 }
 
 
-.sidebar .container h2 {
+.sidebar .container h2, .sidebar .scontainer h2 {
 	margin: 5px 5px 5px 5px;
 	font-size: 18px;
 	color:#A8A8A8;
@@ -152,7 +154,7 @@ table{
 }
 
 
-.sidebar .container h3 {
+.sidebar .container h3,.sidebar .scontainer h3 {
 	margin: 5px 5px 5px 5px;
 	font-size: 16px;
 	font-weight: normal;
@@ -161,63 +163,67 @@ table{
 
 }
 
-.sidebar .container img {
+.sidebar .container img, .sidebar .scontainer img {
 
 	max-width: 125px;
 	border-radius: 50%;
 
 }
 
-.sidebar-navigation .container a:hover{
+.sidebar-navigation .container a:hover, .sidebar-navigation .scontainer a:hover{
 	color: #FFF;
 }
 
-.sidebar-navigation .container .sidebar-nav-link:hover{
+.sidebar-navigation .container .sidebar-nav-link:hover, .sidebar-navigation .scontainer .sidebar-nav-link:hover{
 	background-color:#484848;
 
 }
 
-.sidebar-navigation .container .sidebar-nav-link li{
+.sidebar-navigation .container .sidebar-nav-link li, .sidebar-navigation .scontainer .sidebar-nav-link li{
 	text-align: center;
 	padding-top: 20px;
 	
 }
 
-.sidebar-navigation .container .sidebar-nav-link{
+.sidebar-navigation .container .sidebar-nav-link, .sidebar-navigation .scontainer .sidebar-nav-link{
 	
 	margin-top: 0.4px;
 	height: 50px;
 	background-color: #383838;
 }
 
-.sidebar-navigation .container ul {
+.sidebar-navigation .container ul, .sidebar-navigation .scontainer ul {
 	list-style-type: none;
 	font-family: Roboto;
 
 }
 
-.sidebar-navigation .container {
+.sidebar-navigation .container, .sidebar-navigation .scontainer {
 	text-decoration: none;
 	text-align: left;
 }
 
 
-.sidebar-footer .container {
+.sidebar-footer .container, 
+.sidebar-footer .scontainer {
 	background-color:#1a1a1a;
 }
 
-.sidebar .container a:link, a:hover, a:active, a:visited {
+.sidebar .container a:link, a:hover, a:active, a:visited,
+.sidebar .scontainer a:link, a:hover, a:active, a:visited {
 	text-decoration: none;
 	color: lightgray;
 
 
 }
-.sidebar-footer .container ul{
+.sidebar-footer .container ul,
+.sidebar-footer .scontainer ul{
 	list-style-type: none;
 	margin-right: 60px;
 }
 
-.sidebar-footer .container li{
+.sidebar-footer .container li,
+.sidebar-footer .scontainer li{
 	text-align: left;
 	display: inline;
 	padding-left: 10px;
@@ -268,8 +274,6 @@ table{
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
-	float: left;
-	width: 66.66666667%;
 }
 .interests-col{
 box-sizing: border-box;
@@ -277,8 +281,7 @@ position: relative;
 min-height: 1px;
 padding-right: 15px;
 padding-left: 15px;
-float: left;
-width: 33.33333333%;
+max-width: 45%;
 }
 
 .subtitletext-center{
