@@ -2,6 +2,14 @@
 	padding:0px;
 	margin:0px;
 }
+.text
+th{ 
+	color:#fff;
+		}
+table{
+	margin-left: 100px;
+	text-align: center;
+}
 .currentTeaching .container {
 	text-align: center;
 	margin-left: 150px;
@@ -18,8 +26,9 @@
 }
 
 .contact-me {
-	width: 100%
+	width: 99%
 }
+
 .course {
 	text-align: center;
 }

@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+
+<html>
+	
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<title> Teacher's Name Teaching </title>
+	</head>
+
+	<body>
+
+		<div class="main">
+			
+			<div class="contact-me">
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<div class="contact">
+					<div class="container">
+
+				<h2 style="text-align: center;">Teacher Schedule</h2>
+				<br/>
+				<hr>
+				<br/>
+
+				<table class="table table-striped" >
+					<tr  class="bg-info">
+						<th>Ziua</th>
+						<th>Orele</th>
+						<th>Frecventa</th>
+						<th>Sala</th>
+						<th>Anul</th>
+						<th>Formatia</th>
+						<th>Tipul</th>
+						<th>Disciplina</th>
+					</tr>
+				
+					<tbody id="myTable">
+						
+					</tbody>
+				</table>
+				<script>
+					var myArray = [
+						{'Ziua':'Luni', 'Orele':'8-10', 'Frecventa':'		', 'Sala':'Online','Anul':'2 Baze de date','Formatia':'MaBD2','Tipul':'Curs','Disciplina':'Instrumente inteligente pentru bunastarea sociala'},
+						{'Ziua':'Luni', 'Orele':'10-12', 'Frecventa':'sapt. 2', 'Sala':'Online','Anul':'2 Baze de date','Formatia':'MaBD2','Tipul':'Curs','Disciplina':'Instrumente inteligente pentru bunastarea sociala'},
+						{'Ziua':'Luni', 'Orele':'10-12', 'Frecventa':'sapt. 2', 'Sala':'Online','Anul':'3 Informatica - in limba engleza','Formatia':'IE3','Tipul':'Curs','Disciplina':'Metode inteligente de rezolvare a problemelor reale'},
+						{'Ziua':'Marti', 'Orele':'8-10', 'Frecventa':'		', 'Sala':'Online','Anul':'2 Baze de date','Formatia':'MaBD2','Tipul':'Curs','Disciplina':'Instrumente inteligente pentru bunastarea sociala'},
+						{'Ziua':'Marti', 'Orele':'12-14', 'Frecventa':'sapt. 1', 'Sala':'Online','Anul':'3 Informatica - in limba engleza','Formatia':'IE3','Tipul':'Curs','Disciplina':'Metode inteligente de rezolvare a problemelor reale'},
+						{'Ziua':'Marti', 'Orele':'12-14', 'Frecventa':'sapt. 1', 'Sala':'Online','Anul':'2 Baze de date','Formatia':'MaBD2','Tipul':'Curs','Disciplina':'Instrumente inteligente pentru bunastarea sociala'},
+					]
+					
+					buildTable(myArray)
+				
+				
+				
+					function buildTable(data){
+						var table = document.getElementById('myTable')
+				
+						for (var i = 0; i < data.length; i++){
+							var row = `<tr>
+											<td>${data[i].Ziua}</td>
+											<td>${data[i].Orele}</td>
+											<td>${data[i].Frecventa}</td>
+											<td>${data[i].Sala}</td>
+											<td>${data[i].Anul}</td>
+											<td>${data[i].Formatia}</td>
+											<td>${data[i].Tipul}</td>
+											<td>${data[i].Disciplina}</td>
+									  </tr>`
+							table.innerHTML += row
+				
+				
+						}
+					}
+				
+				</script>
+                
+                 <br>	
+
+                 
+<br>
+<br>
+<br>
+				
+				
+				</div>
+				</div>
+			</div>
+	 
+			 </div>
+		
+
+		<div class = "sidebar">
+			<div class = "container">
+
+				</br></br>
+				<img src = "img/teacher.png"/>
+				</br> </br>
+				<h1> Teacher's Name </h1>
+				<h3> Babeș-Bolyiai Cluj-Napoca </h3>
+				</br>
+				<h2> Office hours </h2>
+				<h3> Monday & Friday : 14:00-16:00  </h3>
+				</br>
+				<h2> Office location </h2>
+				<h3> FSEGA  </h3>
+				</br>
+
+				<div class="sidebar-navigation">
+					<div class="container">
+						<ul>
+
+							<div class="sidebar-nav-link">
+								<li> <a href="index.html"> Biography</a> </li>
+							</div>
+							<div class="sidebar-nav-link">
+								<li> <a href="research.html"> Research </a></li>
+							</div>
+							<div class="sidebar-nav-link">
+								<li> <a href="publications.html"> Publications </a> </li>
+							</div>
+							<div class="sidebar-nav-link">
+								<li> <a href="teaching.html"> Teaching </a> </li>
+							</div>
+							<div class="sidebar-nav-link">
+								<li> <a href="#"> Schedule </a></li>
+							</div>
+							<div class="sidebar-nav-link">
+								<li> <a href="contact.html"> Contact Me </a></li>
+							</div>
+
+						</ul>
+					</div>
+				</div>
+					
+
+				<div class ="sidebar-footer">
+					<div class = "container">
+						</br></br>
+							<ul>
+								<li>
+									<a  href ="#"> <i class ="fa fa-twitter"> </i> </a>
+								</li>
+						
+								<li>
+									<a  href = "#"> <i class = "fa fa-facebook"> </i> </a>
+								</li>
+							
+								<li>
+									<a  href= "#"> <i class = "fa fa-linkedin"> </i> </a>
+								</li>
+							</ul>
+						</br></br>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</body>
+
+</html>
